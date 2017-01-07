@@ -198,7 +198,7 @@ if (!$errName && !$errEmail && !$errMessage) {
         <div class="thumbnail">
           <img src="images/Etretat.jpg" alt="Paris" width="600" height="450">
           <p><strong>Etretat's Cliff</strong></p>
-          <p>450 euros</p>
+          <p>450 <span class="glyphicon glyphicon-euro"></span></p>
           <button class="btn" data-toggle="modal" data-target="#myModal">Book it </button>
         </div>
       </div>
