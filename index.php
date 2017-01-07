@@ -72,8 +72,8 @@ if (!$errName && !$errEmail && !$errMessage) {
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#band">PRESENTATION</a></li>
-          <li><a href="#tour">FLIGHT</a></li>
+          <li><a href="#band">THE COMPANY</a></li>
+          <li><a href="#tour">FLIGHTS</a></li>
           <li><a href="#contact">CONTACT</a></li>
           <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
           <li class="dropdown">
@@ -184,10 +184,14 @@ if (!$errName && !$errEmail && !$errMessage) {
     </div>
   </div>
 
+  <div id="contact" class="container">
+
+  </div>
+
   <!-- Available flights -->
   <div id="tour" class="bg-1">
     <div class="container">
-      <h3 class="text-center">Available flights</h3>
+      <h3 class="text-center">FLIGHTS</h3>
       <p class="text-center">Weater as to be checked before any flight<br> Please use the form below to book a flight</p>
     
       <!--<ul class="list-group">
@@ -199,37 +203,53 @@ if (!$errName && !$errEmail && !$errMessage) {
       <div class="row text-center">
         <div class="col-sm-6">
           <div class="thumbnail">
-            <img src="images/Etretat.jpg" alt="flight1" width="600" height="450">
+            <li data-toggle="modal" data-target="#picModal">
+              <a href="#myGallery" data-slide-to="0">
+                <img src="images/Etretat.jpg" alt="flight1" width="350" height="210">
+              </a>
+            </li>
             <p><strong>Etretat's Cliff</strong></p>
             <p>450 <span class="glyphicon glyphicon-euro"></span> per person</p>
-            <button class="btn" data-toggle="modal" data-target="#picModal"> Book your seat </button>
+            <!--<button class="btn" data-toggle="modal" data-target="#picModal"> Book your seat </button>-->
           </div>
         </div>
 
         <div class="col-sm-6">
           <div class="thumbnail">
-            <img src="images/ground.jpg" alt="flight2" width="600" height="450">
+           <li data-toggle="modal" data-target="#picModal">
+              <a href="#myGallery" data-slide-to="0">
+                <img src="images/ground.jpg" alt="flight1" width="350" height="210">
+              </a>
+            </li>
             <p><strong>Somme Bay</strong></p>
             <p>450 <span class="glyphicon glyphicon-euro"></span> per person</p>
-            <button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>
+            <!--<button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>-->
           </div>
         </div>
 
         <div class="col-sm-6">
           <div class="thumbnail">
-            <img src="images/ground.jpg" alt="San Francisco" width="600" height="450">
+            <li data-toggle="modal" data-target="#picModal">
+              <a href="#myGallery" data-slide-to="0">
+                <img src="images/ground.jpg" alt="flight1" width="350" height="210">
+              </a>
+            </li>
             <p><strong>Flight 3</strong></p>
             <p>450 <span class="glyphicon glyphicon-euro"></span> per person</p>
-            <button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>
+            <!--<button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>-->
           </div>
         </div>
 
         <div class="col-sm-6">
           <div class="thumbnail">
-            <img src="images/ground.jpg" alt="San Francisco" width="600" height="450">
+            <li data-toggle="modal" data-target="#picModal">
+              <a href="#myGallery" data-slide-to="0">
+                <img src="images/ground.jpg" alt="flight1" width="350" height="210">
+              </a>
+            </li>
             <p><strong>Flight 4</strong></p>
             <p>450 <span class="glyphicon glyphicon-euro"></span> per person</p>
-            <button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>
+            <!--<button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>-->
           </div>
         </div>
 
@@ -276,9 +296,10 @@ if (!$errName && !$errEmail && !$errMessage) {
       <div class="modal-dialog">
           <div class="modal-content">
               <div class="modal-header">
-                  <div class="pull-left">Etreta's Cliff</div>
-                  <button type="button" class="close" data-dismiss="modal" title="Close"> <span class="glyphicon glyphicon-remove"></span></button>
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4><span class="glyphicon glyphicon-lock"></span> Etreta's Cliff</h4>
               </div>
+                
               <div class="modal-body">
                   <div id="myGallery" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
@@ -322,7 +343,7 @@ if (!$errName && !$errEmail && !$errMessage) {
 
   <!-- Container Contact -->
   <div id="contact" class="container">
-    <h3 class="text-center">Contact</h3>
+    <h3 class="text-center">CONTACT</h3>
     <br>
     <div class="row">
   <!-- Contat info-->
