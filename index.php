@@ -47,153 +47,12 @@ if (!$errName && !$errEmail && !$errMessage) {
     <meta name="description" content="web site for private flight">
     <meta name="author" content="Xavier Bollart">
     <title>Bootstrap Contact Form With PHP Example</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href="template.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-    body {
-        font: 400 15px/1.8 Lato, sans-serif;
-        color: #777;
-    }
-    h3, h4 {
-        margin: 10px 0 30px 0;
-        letter-spacing: 10px;
-        font-size: 20px;
-        color: #111;
-    }
-    .container {
-        padding: 80px 120px;
-    }
-    .person {
-        border: 10px solid transparent;
-        margin-bottom: 25px;
-        width: 80%;
-        height: 80%;
-        opacity: 0.7;
-    }
-    .person:hover {
-        border-color: #f1f1f1;
-    }
-    .carousel-inner img {
-        /*  -webkit-filter: grayscale(90%);
-        filter: grayscale(90%);  make all photos black and white */
-        width: 100%; /* Set width to 100% */
-        margin: auto;
-    }
-    .carousel-caption h3 {
-        color: #fff !important;
-    }
-    @media (max-width: 600px) {
-        .carousel-caption {
-        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-        }
-    }
-    .bg-1 {
-        background: #2d2d30;
-        color: #bdbdbd;
-    }
-    .bg-1 h3 {color: #fff;}
-    .bg-1 p {font-style: italic;}
-    .list-group-item:first-child {
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-    }
-    .list-group-item:last-child {
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-    }
-    .thumbnail {
-        padding: 0 0 15px 0;
-        border: none;
-        border-radius: 0;
-    }
-    .thumbnail p {
-        margin-top: 15px;
-        color: #555;
-    }
-    .btn {
-        padding: 10px 20px;
-        background-color: #333;
-        color: #f1f1f1;
-        border-radius: 0;
-        transition: .2s;
-    }
-    .btn:hover, .btn:focus {
-        border: 1px solid #333;
-        background-color: #fff;
-        color: #000;
-    }
-    .modal-header, h4, .close {
-        background-color: #333;
-        color: #fff !important;
-        text-align: center;
-        font-size: 30px;
-    }
-    .modal-header, .modal-body {
-        padding: 40px 50px;
-    }
-    .nav-tabs li a {
-        color: #777;
-    }
-    #googleMap {
-        width: 100%;
-        height: 400px;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    .navbar {
-        font-family: Montserrat, sans-serif;
-        margin-bottom: 0;
-        background-color: #2d2d30;
-        border: 0;
-        font-size: 11px !important;
-        letter-spacing: 4px;
-        opacity: 0.9;
-    }
-    .navbar li a, .navbar .navbar-brand {
-        color: #d5d5d5 !important;
-    }
-    .navbar-nav li a:hover {
-        color: #fff !important;
-    }
-    .navbar-nav li.active a {
-        color: #fff !important;
-        background-color: #29292c !important;
-    }
-    .navbar-default .navbar-toggle {
-        border-color: transparent;
-    }
-    .open .dropdown-toggle {
-        color: #fff;
-        background-color: #555 !important;
-    }
-    .dropdown-menu li a {
-        color: #000 !important;
-    }
-    .dropdown-menu li a:hover {
-        background-color: red !important;
-    }
-    footer {
-        background-color: #2d2d30;
-        color: #f5f5f5;
-        padding: 32px;
-    }
-    footer a {
-        color: #f5f5f5;
-    }
-    footer a:hover {
-        color: #777;
-        text-decoration: none;
-    }
-    .form-control {
-        border-radius: 0;
-    }
-    textarea {
-        resize: none;
-    }
-    </style>
   </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -210,7 +69,7 @@ if (!$errName && !$errEmail && !$errMessage) {
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-s
+        <li><a href="#band">PRESENTATION</a></li>
         <li><a href="#tour">FLIGHT</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
@@ -322,42 +181,51 @@ s
   </div>
 </div>
 
-<!-- Container (TOUR Section) -->
+<!-- Available flights -->
 <div id="tour" class="bg-1">
   <div class="container">
     <h3 class="text-center">Available flights</h3>
     <p class="text-center">Weater as to be checked before any flight<br> Please use the form below to book a flight</p>
-    <!--ul class="list-group">
+   
+    <!--<ul class="list-group">
       <li class="list-group-item">September <span class="label label-danger">Sold Out!</span></li>
       <li class="list-group-item">October <span class="label label-danger">Sold Out!</span></li>
       <li class="list-group-item">November <span class="badge">3</span></li>
-    </ul-->
+    </ul>-->
     
     <div class="row text-center">
       <div class="col-sm-6">
         <div class="thumbnail">
-          <img src="images/Etretat.jpg" alt="Paris" width="600" height="450">
+          <img src="images/Etretat.jpg" alt="flight1" width="600" height="450">
           <p><strong>Etretat's Cliff</strong></p>
-          <p>450 euros</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Book it </button>
+          <p>450 euros per person</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>
         </div>
       </div>
       <div class="col-sm-6">
         <div class="thumbnail">
-          <img src="images/ground.jpg" alt="New York" width="600" height="450">
+          <img src="images/ground.jpg" alt="flight2" width="600" height="450">
           <p><strong>Somme Bay</strong></p>
-          <p>450 euros</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Book it</button>
+          <p>450 euros per person</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>
         </div>
       </div>
-      <!--div class="col-sm-4">
+      <div class="col-sm-6">
         <div class="thumbnail">
-          <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>San Francisco</strong></p>
-          <p>Sunday 29 November 2015</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+          <img src="images/ground.jpg" alt="San Francisco" width="600" height="450">
+          <p><strong>Flight 3</strong></p>
+          <p>450 euros per person</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>
         </div>
-      </div-->
+      </div>
+      <div class="col-sm-6">
+        <div class="thumbnail">
+          <img src="images/ground.jpg" alt="San Francisco" width="600" height="450">
+          <p><strong>Flight 4</strong></p>
+          <p>450 euros per person</p>
+          <button class="btn" data-toggle="modal" data-target="#myModal"> Book your seat </button>
+        </div>
+      </div>
     </div>
   </div>
   
@@ -408,7 +276,7 @@ s
     <p><span class="glyphicon glyphicon-envelope"></span> Email: contact@lepilotefrancais.com</p>
     <br>
 
-    <form method="post" action="index.php">
+    <form method="post" action="french.php">
       <div class="row">
         <div class="col-sm-6 form-group">
           <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
