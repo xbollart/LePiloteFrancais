@@ -210,31 +210,18 @@ if (!$errName && !$errEmail && !$errMessage) {
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">PRESENTATION</a></li>
+s
         <li><a href="#tour">FLIGHT</a></li>
         <li><a href="#contact">CONTACT</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
         <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><span class="lang-sm lang-lbl-full" lang="ar"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="be"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="bg"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="cs"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="da"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="de"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="el"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="en"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="es"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="et"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="fi"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="fr"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="ga"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="hi"></span></li>
-    <li><span class="lang-sm lang-lbl-full" lang="hr"></span></li>
-                        </ul>
-                    </li>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Language <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="french.php">French</a></li>
+            <li><a href="index.php">English</a></li>
+            <li><a href="chinese.php">Chinese</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>
