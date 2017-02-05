@@ -72,7 +72,6 @@ if (!$errName && !$errEmail && !$errMessage) {
             <li><a href="#plane">L'AVION</a></li>
             <li><a href="#flights">VOLS</a></li>
             <li><a href="#contact">CONTACT</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> Langue <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
