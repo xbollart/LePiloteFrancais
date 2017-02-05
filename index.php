@@ -147,9 +147,9 @@ if (!$errName && !$errEmail && !$errMessage) {
     </div>
 
     <!-- Part 2 Presentation-->
-    <div id="presentation" class="container text-center">
+    <div id="presentation" class="container">
       <h3>La Companie</h3>
-      <p align="left">Après 10 ans d’aviation, Vincent lance Le Pilote Français. 
+      <p>Après 10 ans d’aviation, Vincent lance Le Pilote Français. 
       Cette compagnie aérienne en cours de certi cation par la DGAC (Direction Générale de l’Aviation Civile) 
       et qui sera située sur l’aérodrome parisien du Plessis-Belleville vous permettra de découvrir 
       Paris et ses environs sous une autre dimension. </p>
@@ -206,7 +206,7 @@ if (!$errName && !$errEmail && !$errMessage) {
           <div class="thumbnail">
             <li data-toggle="modal" data-target="#picModal">
               <a href="#myGallery" data-slide-to="0">
-                <img src="images/flight1/pic09.jpg" alt="Vol Etretat" width="350" height="210">
+                <img src="images/flight1/pic09_opt.jpg" alt="Vol Etretat" width="400" height="300">
               </a>
             </li>
             <p class"text-left" ><strong>Etretat</strong></p>
@@ -220,11 +220,11 @@ if (!$errName && !$errEmail && !$errMessage) {
           <div class="thumbnail">
            <li data-toggle="modal" data-target="#picModal">
               <a href="#myGallery" data-slide-to="0">
-                <img src="images/flight2/pic13.jpg" alt="Vol baie de Somme" width="350" height="210">
+                <img src="images/flight2/pic13_opt.jpg" alt="Vol baie de Somme" width="400" height="300">
               </a>
             </li>
             <p class"text-left" ><strong>Baie de Somme</strong></p>
-            <p class"text-left">Survolez cette réserve natrelle classée au club des plus belles baies du monde</p>
+            <p class"text-left">Survolez une des plus belles réserves naturelles du monde</p>
             <p class"text-left">- Temps de vol A/R sans escale : 1h30</p>
             <p class"text-left">- Prix par personne : 690 <span class="glyphicon glyphicon-euro"></span> (cf Règlement)</p>
           </div>
@@ -232,13 +232,13 @@ if (!$errName && !$errEmail && !$errMessage) {
 
         <div class="col-sm-6">
           <div class="thumbnail">
-            <li data-toggle="modal" data-target="#picModal">
+            <li data-toggle="modal" data-target="#flight-modal">
               <a href="#myGallery" data-slide-to="0">
-                <img src="images/flight3/pic24.jpg" alt="Vol paris" width="350" height="210">
+                <img src="images/flight3/pic24_opt.jpg" alt="Vol paris" width="400" height="300">
               </a>
             </li>
             <p class"text-left" ><strong>Paris la nuit</strong></p>
-            <p class"text-left">Vivez un instant magique en observant la capitale parisienne toute illuminée</p>
+            <p class"text-left">Vivez un instant magique au dessus de la capitale  </p>
             <p class"text-left">- Temps de vol A/R sans escale : 1h</p>
             <p class"text-left">- Prix par personne : 850 <span class="glyphicon glyphicon-euro"></span> (cf Règlement)</p>
           </div>
@@ -248,11 +248,11 @@ if (!$errName && !$errEmail && !$errMessage) {
           <div class="thumbnail">
             <li data-toggle="modal" data-target="#picModal">
               <a href="#myGallery" data-slide-to="0">
-                <img src="images/flight4/pic25.jpg" alt="Vol Reims" width="350" height="210">
+                <img src="images/flight4/pic25_opt.jpg" alt="Vol Reims" width="400" height="300">
               </a>
             </li>
             <p class"text-left" ><strong>Reims et Champagne</strong></p>
-            <p class"text-left">Visite d’un château et dégustation de champagne : boisson préférée des Français</p>
+            <p class"text-left">Visite d’un château et dégustation de champagne </p>
             <p class"text-left">- Temps de vol A/R avec escale : 1h20</p>
             <p class"text-left">- Prix par personne : 1290 <span class="glyphicon glyphicon-euro"></span> (cf Règlement)</p>
           </div>
@@ -269,53 +269,53 @@ if (!$errName && !$errEmail && !$errMessage) {
         <br>
       </div>
       
-    <!-- Modal picture -->
-    <div class="modal fade" id="picModal">
-      <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">×</button>
-                <h4><span class="glyphicon glyphicon-lock"></span> Etreta's Cliff</h4>
-              </div>
-                
-              <div class="modal-body">
-                  <div id="myGallery" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                  <div class="item active"> <img src="images/ground.jpg" alt="item0">
-                  <div class="carousel-caption">
-                  <h3>Heading 3</h3>
-                  <p>Slide 0  description.</p>
-                  </div>
-                  </div>
-                  <div class="item"> <img src="images/Etretat.jpg" alt="item1">
-                  <div class="carousel-caption">
-                  <h3>Heading 3</h3>
-                  <p>Slide 1 description.</p>
-                  </div>
-                  </div>
-                  <div class="item"> <img src="images/vincent_opt.jpg" alt="item2">
-                  <div class="carousel-caption">
-                  <h3>Heading 3</h3>
-                  <p>Slide 2  description.</p>
-                  </div>
-                  </div>  
+      <!-- Modal picture -->
+      <div class="modal fade" id="flight-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                  <h4><span class="glyphicon glyphicon-lock"></span> Etreta's Cliff</h4>
+                </div>
                   
-                  <!--end carousel-inner--></div>
-                  <!--Begin Previous and Next buttons-->
-                  <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
-                  <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-                  <!--end carousel--></div>
+                <div class="modal-body">
+                    <div id="myGallery" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="item active"> <img src="images/ground.jpg" alt="item0">
+                    <div class="carousel-caption">
+                    <h3>Heading 3</h3>
+                    <p>Slide 0  description.</p>
+                    </div>
+                    </div>
+                    <div class="item"> <img src="images/Etretat.jpg" alt="item1">
+                    <div class="carousel-caption">
+                    <h3>Heading 3</h3>
+                    <p>Slide 1 description.</p>
+                    </div>
+                    </div>
+                    <div class="item"> <img src="images/vincent_opt.jpg" alt="item2">
+                    <div class="carousel-caption">
+                    <h3>Heading 3</h3>
+                    <p>Slide 2  description.</p>
+                    </div>
+                    </div>  
+                    
+                    <!--end carousel-inner--></div>
+                    <!--Begin Previous and Next buttons-->
+                    <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
+                    <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+                    <!--end carousel--></div>
 
-              <!--end modal-body--></div>
-              <div class="modal-footer">
-              <div class="pull-left">
-              
-              </div>
-              <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
-              </div><!--end modal-footer-->
-          </div><!--end modal-content-->
-      </div><!--end modal-dialoge-->
-    </div><!--end myModal-->
+                <!--end modal-body--></div>
+                <div class="modal-footer">
+                <div class="pull-left">
+                
+                </div>
+                <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+                </div><!--end modal-footer-->
+            </div><!--end modal-content-->
+        </div><!--end modal-dialoge-->
+      </div><!--end myModal-->
 
 
     </div>
