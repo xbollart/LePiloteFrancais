@@ -261,7 +261,7 @@
               <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">×</button>
-                    <h4><span class="glyphicon glyphicon-lock"></span> Etretat</h4>
+                    <h4>Etretat</h4>
                   </div>
                     
                   <div class="modal-body">
@@ -303,7 +303,7 @@
               <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">×</button>
-                    <h4><span class="glyphicon glyphicon-lock"></span> Baie de Somme</h4>
+                    <h4> Baie de Somme</h4>
                   </div>
                     
                   <div class="modal-body">
@@ -342,7 +342,7 @@
               <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">×</button>
-                    <h4><span class="glyphicon glyphicon-lock"></span> Paris de nuit</h4>
+                    <h4> Paris de nuit</h4>
                   </div>
                     
                   <div class="modal-body">
@@ -384,7 +384,7 @@
               <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">×</button>
-                    <h4><span class="glyphicon glyphicon-lock"></span> Reims Champagne</h4>
+                    <h4> Reims Champagne</h4>
                   </div>
                     
                   <div class="modal-body">
@@ -426,9 +426,9 @@
         <br>
 
         <div class="row">
-          <p><span class="glyphicon glyphicon-map-marker"></span> Aérodrome du Plessis - Belleville, Ermenonville</p>
-          <p><span class="glyphicon glyphicon-phone"></span> Phone: +33 (0) 6 18 32 03 12</p>
-          <p><span class="glyphicon glyphicon-envelope"></span> Email: contact@lepilotefrancais.com</p>
+          <p> Aérodrome du Plessis - Belleville, Ermenonville</p>
+          <p> Phone: +33 (0) 6 18 32 03 12</p>
+          <p> Email: contact@lepilotefrancais.com</p>
           <br>
 
           <form method="post" action="index.php">
