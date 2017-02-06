@@ -39,7 +39,7 @@ if (!$errName && !$errEmail && !$errMessage) {
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Le Pilote Francais</title>
+    <title>Le Pilote Français</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +64,7 @@ if (!$errName && !$errEmail && !$errMessage) {
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#myPage">Le Pilote Francais</a>
+          <a class="navbar-brand" href="#myPage">Le Pilote Français</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -146,37 +146,24 @@ if (!$errName && !$errEmail && !$errMessage) {
     </div>
 
     <!-- Part 2 Presentation-->
-    <div id="presentation" class="container">
-      <h3>La Companie</h3>
+    <div id="presentation" class="container text-center">
+      <h3>La Compagnie</h3>
       <p>Après 10 ans d’aviation, Vincent lance Le Pilote Français. 
       Cette compagnie aérienne en cours de certi cation par la DGAC (Direction Générale de l’Aviation Civile) 
       et qui sera située sur l’aérodrome parisien du Plessis-Belleville vous permettra de découvrir 
       Paris et ses environs sous une autre dimension. </p>
-      <br>
      
-      <div class="row">
-        <div class="col-sm-12">
-          <!--<p class="text-center"><strong>The Pilot</strong></p><br>-->
-          <a href="#demo" data-toggle="collapse">
-            <img src="images/presentation/pic08_opt.jpg" class="img-circle person" alt="Dirigeant responsable et pilote" width="800" height="532">
-          </a>
-          <div id="demo" class="collapse">
-            <p>Vincent Bollart</p>
-            <p>Dirigeant responsable et pilote</p>
-          </div>
-        </div>
+      <div class="col-sm-12">
+          <img src="images/presentation/pic08_opt.jpg" class="img-circle person"  alt="Dirigeant responsable et pilote" width="800" height="532">
       </div>
     </div>
 
     <div id="plane" class="container text-center">
       <h3>L'avion</h3>
-      <p class="text-left"> Model: Diamond DA42 twin star </p>
-      <div class="row ">
-        <div class="col-sm-6">
-          <img src="images/plane/pic23.jpg" alt="DA 42" width="450" height="350"> 
-        </div>
-        <div class="col-sm-6">
-          <img src="images/plane/pic22.jpg" alt="DA 42" width="450" height="350"> 
+      <p> Modèle: Diamond DA42 twin star </p>
+      <div class="row">
+        <div class="col-sm-12">
+          <img src="images/plane/pic23_opt.jpg" class="img-thumbnail"  alt="DA 42" width="800" height="400"> 
         </div>
       </div>
     </div>
@@ -185,7 +172,7 @@ if (!$errName && !$errEmail && !$errMessage) {
     <!-- Part 3 flights -->
     <div id="flights" class="bg-1">
 
-      <div class="container">
+      <div class="container text-center">
       
         <h3 class="text-center">Déroulement d’un vol</h3>
         <br>
@@ -217,7 +204,7 @@ if (!$errName && !$errEmail && !$errMessage) {
 
         <div class="col-sm-6">
           <div class="thumbnail">
-           <li data-toggle="modal" data-target="#picModal">
+           <li data-toggle="modal" data-target="#flight-Modal">
               <a href="#myGallery" data-slide-to="0">
                 <img src="images/flight2/pic13_opt.jpg" alt="Vol baie de Somme" width="400" height="300">
               </a>
@@ -236,7 +223,7 @@ if (!$errName && !$errEmail && !$errMessage) {
                 <img src="images/flight3/pic24_opt.jpg" alt="Vol paris" width="400" height="300">
               </a>
             </li>
-            <p class"text-left" ><strong>Paris la nuit</strong></p>
+            <p class"text-left" ><strong>Paris de nuit</strong></p>
             <p class"text-left">Vivez un instant magique au dessus de la capitale  </p>
             <p class"text-left">- Temps de vol A/R sans escale : 1h</p>
             <p class"text-left">- Prix par personne : 850 <span class="glyphicon glyphicon-euro"></span> (cf Règlement)</p>
@@ -257,7 +244,7 @@ if (!$errName && !$errEmail && !$errMessage) {
           </div>
         </div>
 
-        <h3 align="left">Remarques importantes :</h3>
+        <h3 class="text-center" align="left">Remarques importantes :</h3>
         <p align="left">- Le Pilote Français est une compagnie aérienne respectant la réglementation en vigueur.</p>
         <p align="left">- Le prix comprend le transport aller/retour depuis votre hôtel parisien 
         jusqu’à l’aéroport et une assurance transport public couvrant les passagers et leurs a aires personnelles).</p>
@@ -280,37 +267,43 @@ if (!$errName && !$errEmail && !$errMessage) {
                 <div class="modal-body">
                     <div id="myGallery" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
-                    <div class="item active"> <img src="images/ground.jpg" alt="item0">
-                    <div class="carousel-caption">
-                    <h3>Heading 3</h3>
-                    <p>Slide 0  description.</p>
-                    </div>
-                    </div>
-                    <div class="item"> <img src="images/Etretat.jpg" alt="item1">
-                    <div class="carousel-caption">
-                    <h3>Heading 3</h3>
-                    <p>Slide 1 description.</p>
-                    </div>
-                    </div>
-                    <div class="item"> <img src="images/vincent_opt.jpg" alt="item2">
-                    <div class="carousel-caption">
-                    <h3>Heading 3</h3>
-                    <p>Slide 2  description.</p>
-                    </div>
-                    </div>  
+                      <div class="item active"> <img src="images/flight1/pic09_opt.jpg">
+                        <div class="carousel-caption">
+                        <h3>Heading 3</h3>
+                        <p>Slide 0  description.</p>
+                        </div>
+                      </div>
+                      <div class="item"> <img src="images/flight1/pic10_opt.jpg">
+                        <div class="carousel-caption">
+                        <h3>Heading 3</h3>
+                        <p>Slide 1 description.</p>
+                        </div>
+                      </div>
+                      <div class="item"> <img src="images/flight1/pic11_opt.jpg">
+                        <div class="carousel-caption">
+                        <h3>Heading 3</h3>
+                        <p>Slide 2  description.</p>
+                        </div>
+                      </div>  
+                      <div class="item"> <img src="images/flight1/pic12_opt.jpg">
+                        <div class="carousel-caption">
+                        <h3>Heading 3</h3>
+                        <p>Slide 2  description.</p>
+                        </div>
+                      </div>
                     
-                    <!--end carousel-inner--></div>
+                    </div><!--end carousel-inner-->
                     <!--Begin Previous and Next buttons-->
                     <a class="left carousel-control" href="#myGallery" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a> 
                     <a class="right carousel-control" href="#myGallery" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
-                    <!--end carousel--></div>
+                  </div> <!--end carousel-->
 
-                <!--end modal-body--></div>
+                </div><!--end modal-body-->
                 <div class="modal-footer">
-                <div class="pull-left">
-                
-                </div>
-                <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
+                  <div class="pull-left">
+                  
+                  </div>
+                  <button class="btn-sm close" type="button" data-dismiss="modal">Close</button>
                 </div><!--end modal-footer-->
             </div><!--end modal-content-->
         </div><!--end modal-dialoge-->
@@ -344,7 +337,7 @@ if (!$errName && !$errEmail && !$errMessage) {
           </div>
           <div class="row">
             <div class="col-md-12 form-group">
-              <textarea class="form-control" rows="5" name="message" placeholder="Message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+              <textarea class="form-control" rows="12" name="message" placeholder="Message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
               <?php echo "<p class='text-danger'>$errMessage</p>";?>
             </div>
           </div>

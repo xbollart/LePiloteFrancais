@@ -137,7 +137,7 @@ if (!$errName && !$errEmail && !$errMessage) {
 
   <!-- Container (The Band Section) -->
   <div id="band" class="container text-center">
-    <h3>THE COMPANY</h3>
+    <h3 class="text-center">THE COMPAGNY</h3>
     <p><em>How did it started</em></p>
     <p>De formation ingénieur en Energie du Bâtiment et passionné d’aviation, Vincent travaille à Paris 
       depuis 2013 tout en continuant à voler en région parisienne. Après avoir obtenu sa licence 
