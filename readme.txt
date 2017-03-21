@@ -1,4 +1,4 @@
 run website:
 
-http://localhost/~xavierbollart/lepilotefrancais/index.php
+http://localhost/~xavierbollart/lepilotefrancais/index.html
 
